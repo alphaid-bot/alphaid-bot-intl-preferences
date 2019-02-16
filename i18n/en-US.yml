@@ -23,7 +23,7 @@ LANGUAGE_PREFERENCE_HELP_SET@USER: |-
   • **`set timezone, <time zone>` to change your time zone**:
   This time zone will be used whenever the bot needs to display date or time in the response to a command.
 
-LANGUAGE_PREFERENCE_SET_INVALID_TIMEZONE: "Unknown timezone. Be sure to provide a valid [IANA time zone database](https://en.wikipedia.org/wiki/Tz_database) name."
+LANGUAGE_PREFERENCE_SET_INVALID_TIMEZONE: "Unknown time zone. Be sure to provide a valid [IANA time zone database](https://en.wikipedia.org/wiki/Tz_database) name."
 
 LANGUAGE_PREFERENCE_SET_DONE_TIMEZONE@GUILD: |-
   The server time zone changed to {timezone}.
