@@ -1,0 +1,5 @@
+name: intl-preferences
+version: 0.9.0
+dependencies:
+  messages-flows: 0.9.X
+main: ./IntlPreferences

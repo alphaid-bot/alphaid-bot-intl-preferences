@@ -1,0 +1,65 @@
+LANGUAGE_PREFERENCE_SET_DM: "You can only change server-related settings on servers."
+
+LANGUAGE_PREFERENCE_SET_PERMISSIONS: "You are missing permission to change settings of this server."
+
+LANGUAGE_PREFERENCE_HELP_SET@GUILD: |-
+  This command allows you to change server-related internationalization settings. Use one of the following:
+
+  • **`server_set language, <code>` to change language on server**:
+  All newcomers to server and unknown users to the bot will start using this language by default.
+
+  • **`server_set timezone, <time zone>` to change the server time zone**:
+  This will set a server time zone that may be used by various modules (for example, logging). This does not change the time zone for users on the server.
+
+  • **`server_set enforce, <state: +/-/true/false>` to enable or disable language enforcing mode**:
+  Enforcing mode forces users to use the server language when they call command on the server. Outside the server they will still be able to use whatever language they want.
+
+LANGUAGE_PREFERENCE_HELP_SET@USER: |-
+  This command allows you to change your internationalization settings. Use one of the following:
+
+  • **`set language, <code>` to change language**:
+  This language will be used whenever you call the bot commands and if server language enforcing mode is disabled.
+
+  • **`set timezone, <time zone>` to change your time zone**:
+  This time zone will be used whenever the bot needs to display date or time in the response to a command.
+
+LANGUAGE_PREFERENCE_SET_INVALID_TIMEZONE: "Unknown timezone. Be sure to provide a valid [IANA time zone database](https://en.wikipedia.org/wiki/Tz_database) name."
+
+LANGUAGE_PREFERENCE_SET_DONE_TIMEZONE@GUILD: |-
+  The server time zone changed to {timezone}.
+
+  Current server time: {currentTime}.
+
+LANGUAGE_PREFERENCE_SET_DONE_TIMEZONE@USER: |-
+  Your time zone changed to {timezone}.
+
+  Current time: {currentTime}.
+
+LANGUAGE_PREFERENCE_SET_INVALID_LANGCODE: "Unknown language code. If you are unsure, type `{prefix}intl list`."
+
+LANGUAGE_PREFERENCE_SET_DONE@USER: "Your language is now set to {language}."
+
+LANGUAGE_PREFERENCE_SET_DONE@GUILD: "Server language has been changed to {language}."
+
+LANGUAGE_PREFERENCE_ENFORCING_DM: "This setting cannot be changed for user."
+
+LANGUAGE_PREFERENCE_SET_INVALID_STATE: |-
+  Invalid new state. Use one of the following:
+
+  • `+`, `enable`, `true` to enable the enforcing or
+  • `-`, `disable`, `false` to disable it.
+
+LANGUAGE_PREFERENCE_SET_ENFORCE_DONE@ENABLED: "Enforcing mode enabled."
+
+LANGUAGE_PREFERENCE_SET_ENFORCE_DONE@DISABLED: "Enforcing mode disabled."
+
+LANGUAGE_PREFERENCE_LIST_LANGUAGE: "`{code}` — {name}"
+
+LANGUAGE_PREFERENCE_LIST: |-
+  The list of the languages this bot supports:
+
+  {languages}
+
+LANGUAGE_PREFERENCE_LIST_TITLE: "Languages list"
+
+LANGUAGE_PREFERENCE_NO_NAME: "<no name provided>"
